@@ -24,13 +24,17 @@
 }
 
 .c1, .c2, .c3, .c4 {
-    background-color: green;
+    background-color: grey;
     height: auto;
     width: 70px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.active {
+    background-color: green;
 }
 
 .c1 {
