@@ -98,7 +98,7 @@ function updateActiveClass(){
         talent[14].classList.add('active')
     }
 
-
+    else {talent[14].classList.remove('active')}
 
 }
 
@@ -208,7 +208,7 @@ for (let i = 1; i <= 14; i++) {
 
 
 
-for(let i = 1; i < 14; i++){
+for(let i = 1; i <= 14; i++){
 talent[i].addEventListener('contextmenu', function(event){
     event.preventDefault(); 
     removeTalent(i);
