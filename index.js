@@ -100,6 +100,17 @@ function updateActiveClass(){
 
     else {talent[14].classList.remove('active')}
 
+
+    if (totalPoints === 31){
+        for(let i = 1; i<= 14; i++){
+            if(inputValue[i] === 0){
+                
+                talent[i].classList.remove('active');
+            }
+        }
+        console.log(totalPoints);
+    }
+
 }
 
 // function updateActiveClass(neededPoints, numOfTalent1, numOfTalent2, numOfTalent3) {
